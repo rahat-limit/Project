@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05b76a61-189f-4ac4-80a7-0272e30add47" name="Changes" comment="Sort method" />
+    <list default="true" id="05b76a61-189f-4ac4-80a7-0272e30add47" name="Changes" comment="Clear Method Documentation">
+      <change beforePath="$PROJECT_DIR$/src/MyArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyArrayList.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,7 +54,7 @@
       <updated>1681187326077</updated>
       <workItem from="1681187327473" duration="886000" />
       <workItem from="1681201014404" duration="1297000" />
-      <workItem from="1681284041359" duration="4808000" />
+      <workItem from="1681284041359" duration="5680000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1681187531441</created>
@@ -138,7 +140,70 @@
       <option name="project" value="LOCAL" />
       <updated>1681291405566</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Increase Buffer Documentation">
+      <created>1681291707600</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1681291707600</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Get Method Documentation">
+      <created>1681291803690</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1681291803690</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Size Method Documentation">
+      <created>1681291846596</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1681291846596</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Contains Method Documentation">
+      <created>1681291927831</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1681291927831</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Add Method Documentation">
+      <created>1681291987908</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1681291987908</updated>
+    </task>
+    <task id="LOCAL-00018" summary="AddAt Method Documentation">
+      <created>1681292039162</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1681292039162</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Remove Method Documentation">
+      <created>1681292107324</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1681292107324</updated>
+    </task>
+    <task id="LOCAL-00020" summary="RemoveAt Method Documentation">
+      <created>1681292170077</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1681292170078</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Clear Method Documentation">
+      <created>1681292255862</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1681292255862</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,6 +222,15 @@
     <MESSAGE value="IndexOf method" />
     <MESSAGE value="LastIndexOf method" />
     <MESSAGE value="Sort method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sort method" />
+    <MESSAGE value="Increase Buffer Documentation" />
+    <MESSAGE value="Get Method Documentation" />
+    <MESSAGE value="Size Method Documentation" />
+    <MESSAGE value="Contains Method Documentation" />
+    <MESSAGE value="Add Method Documentation" />
+    <MESSAGE value="AddAt Method Documentation" />
+    <MESSAGE value="Remove Method Documentation" />
+    <MESSAGE value="RemoveAt Method Documentation" />
+    <MESSAGE value="Clear Method Documentation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Clear Method Documentation" />
   </component>
 </project>

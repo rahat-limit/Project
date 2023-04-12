@@ -119,6 +119,10 @@ public class MyArrayList<T> implements MyList {
 
   @Override
   public int indexOf(Object o) {
+    /**
+     * Method indexOf that returns the position of the first occurrence of specified character(s) in a string.
+     * @return int.
+     */
     if (!contains(o)) return -1;
     for (int i = 0; i < arr.length; i++) {
       if (arr[i].equals((T) o)) {
