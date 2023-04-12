@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05b76a61-189f-4ac4-80a7-0272e30add47" name="Changes" comment="Size method">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/project/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project/MyArrayList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/project/MyArrayList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    <list default="true" id="05b76a61-189f-4ac4-80a7-0272e30add47" name="Changes" comment="Contains method">
       <change beforePath="$PROJECT_DIR$/src/MyArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyArrayList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +54,7 @@
       <updated>1681187326077</updated>
       <workItem from="1681187327473" duration="886000" />
       <workItem from="1681201014404" duration="1297000" />
-      <workItem from="1681284041359" duration="1583000" />
+      <workItem from="1681284041359" duration="1884000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1681187531441</created>
@@ -88,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681285061631</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Contains method">
+      <created>1681285789114</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1681285789114</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,6 +103,7 @@
     <MESSAGE value="Second init" />
     <MESSAGE value="Get method" />
     <MESSAGE value="Size method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Size method" />
+    <MESSAGE value="Contains method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Contains method" />
   </component>
 </project>

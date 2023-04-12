@@ -45,7 +45,16 @@ public class MyArrayList<T> implements MyList {
 
   @Override
   public void addAt(Object item, int index) {
-
+    isExist(index);
+    if (size == arr.length) {
+      increaseBuffer();
+    }
+    for(int i = size; i>index; i--) {
+      arr[i] = arr[i-1];
+    }
+    arr[index] = (T) item;
+    size++;
+    arr[index] = (T)item;
   }
 
   @Override
