@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05b76a61-189f-4ac4-80a7-0272e30add47" name="Changes" comment="Sort Method Documentation">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="05b76a61-189f-4ac4-80a7-0272e30add47" name="Changes" comment="How start, Documentation" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,7 +52,7 @@
       <updated>1681187326077</updated>
       <workItem from="1681187327473" duration="886000" />
       <workItem from="1681201014404" duration="1297000" />
-      <workItem from="1681284041359" duration="6416000" />
+      <workItem from="1681284041359" duration="6745000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1681187531441</created>
@@ -225,7 +222,21 @@
       <option name="project" value="LOCAL" />
       <updated>1681292534577</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="How start, Documentation">
+      <created>1681295808356</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1681295808356</updated>
+    </task>
+    <task id="LOCAL-00026" summary="How start, Documentation">
+      <created>1681296003773</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1681296003773</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,6 +266,7 @@
     <MESSAGE value="Clear Method Documentation" />
     <MESSAGE value="IndexOf Method Documentation" />
     <MESSAGE value="Sort Method Documentation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sort Method Documentation" />
+    <MESSAGE value="How start, Documentation" />
+    <option name="LAST_COMMIT_MESSAGE" value="How start, Documentation" />
   </component>
 </project>

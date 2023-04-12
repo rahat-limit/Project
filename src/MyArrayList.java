@@ -6,19 +6,7 @@ public class MyArrayList<T> implements MyList {
     this.arr = (T[]) new Object[5];
     this.size = 0;
   }
-
-  public void increaseBuffer(){
-    /**
-     * Method increaseBuffer that increase stack memory.
-     * @param newArr is new Array with more memory.
-     */
-    T[] newArr = (T[]) new Object[arr.length*2];
-    for(int i=0; i< arr.length; i++){
-      newArr[i]=arr[i];
-    }
-    arr = newArr;
-  }
-
+//  Essential Methods
   @Override
   public Object get(int index) {
     /**
@@ -163,6 +151,20 @@ public class MyArrayList<T> implements MyList {
       }
     }
   }
+//  Optional Methods
+
+  public void increaseBuffer(){
+    /**
+     * Method increaseBuffer that increase stack memory.
+     * @param newArr is new Array with more memory.
+     */
+    T[] newArr = (T[]) new Object[arr.length*2];
+    for(int i=0; i< arr.length; i++){
+      newArr[i]=arr[i];
+    }
+    arr = newArr;
+  }
+
 
   private void isExist(int index) {
     /**
