@@ -53,6 +53,9 @@ public class MyArrayList<T> implements MyList {
 
   @Override
   public void add(Object item) {
+    /**
+     * Method add that add to array one object.
+     */
     if(size == arr.length){
       increaseBuffer();
     }
