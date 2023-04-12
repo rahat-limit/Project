@@ -6,6 +6,6 @@ public class Main {
     list.add("3");
 //    list.remove("3");
 //    list.clear();
-    System.out.println(list.indexOf("2"));
+    System.out.println(list.lastIndexOf("2"));
   }
 }
