@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05b76a61-189f-4ac4-80a7-0272e30add47" name="Changes" comment="AddAt method">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="05b76a61-189f-4ac4-80a7-0272e30add47" name="Changes" comment="Remove object method">
       <change beforePath="$PROJECT_DIR$/src/MyArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyArrayList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +54,7 @@
       <updated>1681187326077</updated>
       <workItem from="1681187327473" duration="886000" />
       <workItem from="1681201014404" duration="1297000" />
-      <workItem from="1681284041359" duration="2595000" />
+      <workItem from="1681284041359" duration="3038000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1681187531441</created>
@@ -99,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681286141243</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Remove object method">
+      <created>1681286963964</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1681286963964</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,6 +119,7 @@
     <MESSAGE value="Size method" />
     <MESSAGE value="Contains method" />
     <MESSAGE value="AddAt method" />
-    <option name="LAST_COMMIT_MESSAGE" value="AddAt method" />
+    <MESSAGE value="Remove object method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove object method" />
   </component>
 </project>

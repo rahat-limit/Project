@@ -5,6 +5,6 @@ public class Main {
     list.add("2");
     list.add("3");
 //    list.remove("3");
-    System.out.println(list.remove("4"));
+    System.out.println(list.remove(2));
   }
 }
