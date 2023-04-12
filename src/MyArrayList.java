@@ -16,8 +16,14 @@ public class MyArrayList<T> implements MyList {
   }
 
   @Override
+  public Object get(int index) {
+    isExist(index);
+    return arr[index];
+  }
+
+  @Override
   public int size() {
-    return 0;
+    return size;
   }
 
   @Override
@@ -53,11 +59,7 @@ public class MyArrayList<T> implements MyList {
 
   }
 
-  @Override
-  public Object get(int index) {
-    isExist(index);
-    return arr[index];
-  }
+
 
   @Override
   public int indexOf(Object o) {
