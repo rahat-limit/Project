@@ -28,6 +28,10 @@ public class MyArrayList<T> implements MyList {
 
   @Override
   public boolean contains(Object o) {
+    if (arr.length == 0) return false;
+    for (int i = 0; i < size; i++) {
+      if (arr[i].equals(o)) return true;
+    }
     return false;
   }
 
