@@ -8,6 +8,10 @@ public class MyArrayList<T> implements MyList {
   }
 
   public void increaseBuffer(){
+    /**
+     * Method increaseBuffer that increase stack memory.
+     * @param newArr is new Array with more memory.
+     */
     T[] newArr = (T[]) new Object[arr.length*2];
     for(int i=0; i< arr.length; i++){
       newArr[i]=arr[i];
