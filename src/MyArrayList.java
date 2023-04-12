@@ -165,6 +165,9 @@ public class MyArrayList<T> implements MyList {
   }
 
   private void isExist(int index) {
+    /**
+     * Method isExist that check is element by index is exist or no.
+     */
     if (arr[index] == null) {
       throw new IndexOutOfBoundsException();
     }
