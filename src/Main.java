@@ -4,7 +4,7 @@ public class Main {
     list.add("1");
     list.add("2");
     list.add("3");
-    list.addAt("4", 2);
-    System.out.println(list.get(3));
+//    list.remove("3");
+    System.out.println(list.remove("4"));
   }
 }

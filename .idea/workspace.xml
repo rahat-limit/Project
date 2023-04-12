@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05b76a61-189f-4ac4-80a7-0272e30add47" name="Changes" comment="Contains method">
+    <list default="true" id="05b76a61-189f-4ac4-80a7-0272e30add47" name="Changes" comment="AddAt method">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MyArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyArrayList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +55,7 @@
       <updated>1681187326077</updated>
       <workItem from="1681187327473" duration="886000" />
       <workItem from="1681201014404" duration="1297000" />
-      <workItem from="1681284041359" duration="1884000" />
+      <workItem from="1681284041359" duration="2595000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1681187531441</created>
@@ -91,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681285789114</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="AddAt method">
+      <created>1681286141243</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1681286141243</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,6 +112,7 @@
     <MESSAGE value="Get method" />
     <MESSAGE value="Size method" />
     <MESSAGE value="Contains method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Contains method" />
+    <MESSAGE value="AddAt method" />
+    <option name="LAST_COMMIT_MESSAGE" value="AddAt method" />
   </component>
 </project>

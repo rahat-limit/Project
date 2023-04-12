@@ -52,13 +52,17 @@ public class MyArrayList<T> implements MyList {
     for(int i = size; i>index; i--) {
       arr[i] = arr[i-1];
     }
-    arr[index] = (T) item;
     size++;
-    arr[index] = (T)item;
+    arr[index] = (T) item;
   }
 
   @Override
   public boolean remove(Object item) {
+    if (!contains(item)) return false;
+    if (indexOf(item) >= 0) {
+      remove(indexOf(item));
+      return true;
+    }
     return false;
   }
 
