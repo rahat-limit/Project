@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05b76a61-189f-4ac4-80a7-0272e30add47" name="Changes" comment="Clear Method Documentation">
-      <change beforePath="$PROJECT_DIR$/src/MyArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyArrayList.java" afterDir="false" />
+    <list default="true" id="05b76a61-189f-4ac4-80a7-0272e30add47" name="Changes" comment="Sort Method Documentation">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +55,7 @@
       <updated>1681187326077</updated>
       <workItem from="1681187327473" duration="886000" />
       <workItem from="1681201014404" duration="1297000" />
-      <workItem from="1681284041359" duration="5680000" />
+      <workItem from="1681284041359" duration="6416000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1681187531441</created>
@@ -203,7 +204,28 @@
       <option name="project" value="LOCAL" />
       <updated>1681292255862</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="IndexOf Method Documentation">
+      <created>1681292358441</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1681292358441</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Sort Method Documentation">
+      <created>1681292524244</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1681292524244</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Sort Method Documentation">
+      <created>1681292534577</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1681292534577</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,6 +253,8 @@
     <MESSAGE value="Remove Method Documentation" />
     <MESSAGE value="RemoveAt Method Documentation" />
     <MESSAGE value="Clear Method Documentation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Clear Method Documentation" />
+    <MESSAGE value="IndexOf Method Documentation" />
+    <MESSAGE value="Sort Method Documentation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sort Method Documentation" />
   </component>
 </project>
