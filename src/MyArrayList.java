@@ -110,6 +110,9 @@ public class MyArrayList<T> implements MyList {
 
   @Override
   public void clear(){
+    /**
+     * Method clear that clear array and array size.
+     */
     this.arr = (T[]) new Object[5];
     this.size = 0;
   }
