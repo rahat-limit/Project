@@ -1,7 +1,7 @@
 # Second Assignment Documentation
 Welcome to my respository, which I created due to ADS lessons. Here you can easily find some tasks with their explanations. Hope you like it🤙
 ## Main File Main.java [(source)](https://github.com/rahat-limit/lab-2/blob/master/src/Main.java/)
-**All tasks in lab-2 works the same way. All you neede to follow uncomment Example lines and start project**
+**All tasks in lab-2 works the same way. All you needed to uncomment Example lines and start project**
 ## ✖️ MyArrayList [(source)](https://github.com/rahat-limit/lab-2/blob/master/src/MyArrayList.java)
 ### Method GET:
 Method get that provide exact item of array by index.
