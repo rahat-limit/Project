@@ -80,6 +80,10 @@ public class MyArrayList<T> implements MyList {
 
   @Override
   public boolean remove(Object item) {
+    /**
+     * Method remove that remove one object from array.
+     * @return boolean value.
+     */
     if (!contains(item)) return false;
     if (indexOf(item) >= 0) {
       remove(indexOf(item));
