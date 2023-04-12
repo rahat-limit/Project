@@ -94,6 +94,10 @@ public class MyArrayList<T> implements MyList {
 
   @Override
   public Object remove(int index) {
+    /**
+     * Method removeAt that remove one oject from array by index.
+     * @return removed object.
+     */
     isExist(index);
     T item = arr[index];
     // item - removed element
