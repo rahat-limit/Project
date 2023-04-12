@@ -134,6 +134,10 @@ public class MyArrayList<T> implements MyList {
 
   @Override
   public int lastIndexOf(Object o) {
+    /**
+     * Method lastIndexOf that return the position of the last occurrence of specified character(s) in a string.
+     * @return int.
+     */
     if (!contains(o)) return -1;
     int index = -1;
     for (int i = 0; i < arr.length; i++) {
@@ -146,6 +150,9 @@ public class MyArrayList<T> implements MyList {
 
   @Override
   public void sort() {
+    /**
+     * Method sort that sort elements of a collection.
+     */
     for(int i = 0; i < size; i++) {
       for (int d = i; d < size; d++) {
         if ((int) arr[d] < (int) arr[i]) {
