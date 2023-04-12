@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05b76a61-189f-4ac4-80a7-0272e30add47" name="Changes" comment="How start, Documentation" />
+    <list default="true" id="05b76a61-189f-4ac4-80a7-0272e30add47" name="Changes" comment="How to start, Documentation">
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,7 +54,7 @@
       <updated>1681187326077</updated>
       <workItem from="1681187327473" duration="886000" />
       <workItem from="1681201014404" duration="1297000" />
-      <workItem from="1681284041359" duration="6745000" />
+      <workItem from="1681284041359" duration="7154000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1681187531441</created>
@@ -236,7 +238,21 @@
       <option name="project" value="LOCAL" />
       <updated>1681296003773</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="How start, Documentation">
+      <created>1681296188524</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1681296188525</updated>
+    </task>
+    <task id="LOCAL-00028" summary="How to start, Documentation">
+      <created>1681296422133</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1681296422133</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -267,6 +283,7 @@
     <MESSAGE value="IndexOf Method Documentation" />
     <MESSAGE value="Sort Method Documentation" />
     <MESSAGE value="How start, Documentation" />
-    <option name="LAST_COMMIT_MESSAGE" value="How start, Documentation" />
+    <MESSAGE value="How to start, Documentation" />
+    <option name="LAST_COMMIT_MESSAGE" value="How to start, Documentation" />
   </component>
 </project>
