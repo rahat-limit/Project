@@ -21,6 +21,10 @@ public class MyArrayList<T> implements MyList {
 
   @Override
   public Object get(int index) {
+    /**
+     * Method get that provide exact item of array by index.
+     * @return Object
+     */
     isExist(index);
     return arr[index];
   }
