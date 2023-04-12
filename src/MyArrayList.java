@@ -64,6 +64,9 @@ public class MyArrayList<T> implements MyList {
 
   @Override
   public void addAt(Object item, int index) {
+    /**
+     * Method addAt that add to aray one object at exact index.
+     */
     isExist(index);
     if (size == arr.length) {
       increaseBuffer();
