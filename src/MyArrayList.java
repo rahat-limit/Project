@@ -31,6 +31,10 @@ public class MyArrayList<T> implements MyList {
 
   @Override
   public int size() {
+    /**
+     * Method size that return length of array.
+     * @return int.
+     */
     return size;
   }
 
