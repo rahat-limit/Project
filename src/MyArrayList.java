@@ -84,11 +84,11 @@ public class MyArrayList<T> implements MyList {
   public Object remove(int index) {
     /**
      * Method removeAt that remove one oject from array by index.
+     * @params item - removed element
      * @return removed object.
      */
     isExist(index);
     T item = arr[index];
-    // item - removed element
     for(int i = index + 1; i <= size; i++) {
       arr[i-1] = arr[i];
     }
