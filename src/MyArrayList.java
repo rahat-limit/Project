@@ -109,7 +109,15 @@ public class MyArrayList<T> implements MyList {
 
   @Override
   public void sort() {
-
+    for(int i = 0; i < size; i++) {
+      for (int d = i; d < size; d++) {
+        if ((int) arr[d] < (int) arr[i]) {
+          T item = arr[i];
+          arr[i] = arr[d];
+          arr[d] = item;
+        }
+      }
+    }
   }
 
   private void isExist(int index) {
