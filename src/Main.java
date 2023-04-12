@@ -5,7 +5,7 @@ public class Main {
     list.add("2");
     list.add("3");
 //    list.remove("3");
-    list.clear();
-    System.out.println(list.get(0));
+//    list.clear();
+    System.out.println(list.indexOf("2"));
   }
 }
