@@ -13,9 +13,22 @@ public class Main {
 //    -------- Example LinkedList:
     MyLinkedList linkedList = new MyLinkedList();
     System.out.println("We already started, just enter input data: (For example:(Integer)). Also it works the same way to any type of Object.");
-    int input = scan.nextInt();// or String input = scan.nextLine();
+    int input = scan.nextInt();
     linkedList.add(input);
-    linkedList.clear();
+
+    System.out.println("We already started, just enter input data: (For example:(Integer)). Also it works the same way to any type of Object.");
+    int input2 = scan.nextInt();
+    linkedList.add(input);
+
+    System.out.println("We already started, just enter input data: (For example:(Integer)). Also it works the same way to any type of Object.");
+    int input3 = scan.nextInt();
+    linkedList.add(input);
+
+    System.out.println("We already started, just enter input data: (For example:(Integer)). Also it works the same way to any type of Object.");
+    int input4 = scan.nextInt();// or String input = scan.nextLine();
+    linkedList.add(input);
+
+    linkedList.sort();
     System.out.println(linkedList.get(0));
 
 //    -------- Options:
