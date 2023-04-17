@@ -10,6 +10,12 @@ public class Main {
 //    int input = scan.nextInt(); or String input = scan.nextLine();
 //    list.add(input);
 //    System.out.println(list.get(0));
+//    -------- Example LinkedList:
+    MyLinkedList linkedList = new MyLinkedList();
+    System.out.println("We already started, just enter input data: (For example:(Integer)). Also it works the same way to any type of Object.");
+    int input = scan.nextInt();// or String input = scan.nextLine();
+    linkedList.add(input);
+    System.out.println(linkedList.contains(12));
 
 //    -------- Options:
 //    list.get(index);
