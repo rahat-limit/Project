@@ -130,7 +130,9 @@ public class MyLinkedList<E> implements MyList{
 
   @Override
   public void clear() {
-
+    head = null;
+    tail = null;
+    size = 0;
   }
 
   @Override

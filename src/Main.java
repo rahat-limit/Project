@@ -15,9 +15,7 @@ public class Main {
     System.out.println("We already started, just enter input data: (For example:(Integer)). Also it works the same way to any type of Object.");
     int input = scan.nextInt();// or String input = scan.nextLine();
     linkedList.add(input);
-    System.out.println("We already started, just enter input data: (For example:(Integer)). Also it works the same way to any type of Object.");
-    int input_ = scan.nextInt();//
-    linkedList.remove(input_);
+    linkedList.clear();
     System.out.println(linkedList.get(0));
 
 //    -------- Options:
