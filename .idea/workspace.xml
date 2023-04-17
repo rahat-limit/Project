@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05b76a61-189f-4ac4-80a7-0272e30add47" name="Changes" comment="MyLinkedList Size">
+    <list default="true" id="05b76a61-189f-4ac4-80a7-0272e30add47" name="Changes" comment="MyLinkedList Contains">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/project/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/project/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/project/MyArrayList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/project/MyArrayList.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyLinkedList.java" afterDir="false" />
     </list>
@@ -59,7 +62,7 @@
       <workItem from="1681284041359" duration="9289000" />
       <workItem from="1681537677186" duration="9000" />
       <workItem from="1681537694927" duration="11000" />
-      <workItem from="1681713276321" duration="511000" />
+      <workItem from="1681713276321" duration="2518000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1681187531441</created>
@@ -292,14 +295,20 @@
       <option name="project" value="LOCAL" />
       <updated>1681713611599</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="MyLinkedList Contains">
+      <created>1681713878471</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1681713878471</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Contains method" />
     <MESSAGE value="AddAt method" />
     <MESSAGE value="Remove object method" />
     <MESSAGE value="Remove object by index method" />
@@ -324,6 +333,7 @@
     <MESSAGE value="MyLinkedList" />
     <MESSAGE value="MyLinkedList Nodes" />
     <MESSAGE value="MyLinkedList Size" />
-    <option name="LAST_COMMIT_MESSAGE" value="MyLinkedList Size" />
+    <MESSAGE value="MyLinkedList Contains" />
+    <option name="LAST_COMMIT_MESSAGE" value="MyLinkedList Contains" />
   </component>
 </project>
