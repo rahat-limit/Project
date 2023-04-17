@@ -15,6 +15,19 @@ Firstly, check by method isExist is object in array. Then, return item of array 
     return arr[index];
   }
 ```
+```java
+  @Override
+  public Object get(int index) {
+    /**
+     * Method get that returns the exact item from array.
+     * @return Object.
+     */
+    if(index < 0 || index>=size){
+      throw new IndexOutOfBoundsException();
+    }
+    return getNode(index).val;
+  }
+```
 ### Method SIZE:
 Method size that return length of array.
 ### Explanation:
@@ -23,6 +36,16 @@ Simply return size of array.
 ```java
   @Override
   public int size() {
+    return size;
+  }
+```
+```java
+  @Override
+  public int size() {
+    /**
+     * Method size that return length of array.
+     * @return int.
+     */
     return size;
   }
 ```
@@ -41,6 +64,16 @@ Firstly, condition to check is array empty or not, after it goes through loop to
     return false;
   }
 ```
+```java
+  @Override
+  public boolean contains(Object o) {
+    /**
+     * Method contains that define is object exist in array.
+     * @return boolean value.
+     */
+    return (indexOf(o) != -1 ? true : false);
+  }
+```
 ### Method ADD:
 Method add that add to array one object.
 ### Explanation:
@@ -54,7 +87,24 @@ Condition to check is free space in array, otherwise increase memory by method i
     }
     arr[size++] = (T)item;
   }
-
+```
+```java
+  @Override
+  public void add(Object item) {
+    /**
+     * Method add that that add to array addition object.
+     * @return null;
+     */
+    Node<E> node = new Node<>((E) item);
+    if (size == 0) {
+      this.head = node;
+    } else {
+      this.tail.next = node;
+    }
+    this.tail = node;
+    elements.add(item);
+    size++;
+  }
 ```
 ### Method ADDAT:
  Method addAt that add to aray one object at exact index.
@@ -75,6 +125,37 @@ Condition to check is index relevant to array by method isExist. Condition to ch
     arr[index] = (T) item;
   }
 ```
+### Explanation:
+Firstly, we throw error if index is not relevant. Than create new node and couple conditions to check equals of head, next and previous. Finally, add to array and increase size.
+```java
+  @Override
+  public void addAt(Object item, int index) {
+    /**
+     * Method addAt that add to aray one object at exact index.
+     * @return null;
+     */
+    if (index < 0 || index > size) throw new IndexOutOfBoundsException();
+    Node oldNode = getNode(index);
+    Node node = new Node<E>((E) item);
+    if (this.head.equals(oldNode)) {
+      node.next = this.head;
+      this.head.previous = node;
+      this.head = node;
+    } else if (this.tail.equals(oldNode)){
+      node.next = this.tail;
+      node.previous = this.tail.previous;
+      this.tail.previous.next = node;
+      this.tail.previous = node;
+    } else {
+      node.previous = oldNode.previous;
+      node.next = oldNode;
+      oldNode.previous.next = node;
+      oldNode.previous = node;
+    }
+    elements.add(item);
+    size++;
+  }
+```
 ### Method REMOVE:
  Method remove that remove one object from array.
 ### Explanation:
@@ -86,6 +167,24 @@ Condition to check is item relevant to array by method contains. Then by indexOf
     if (!contains(item)) return false;
     if (indexOf(item) >= 0) {
       remove(indexOf(item));
+      return true;
+    }
+    return false;
+  }
+```
+```java
+  @Override
+  public boolean remove(Object item) {
+    /**
+     * Method remove that remove one object from array.
+     * @return boolean value.
+     */
+    int index= indexOf(item);
+    if (index >= 0) {
+      remove(index);
+      size--;
+      size--;
+      elements.remove(item);
       return true;
     }
     return false;
@@ -108,6 +207,34 @@ Condition to check is index relevant to array by method isExist. Then go through
     return item;
   }
 ```
+```java
+  @Override
+  public Object remove(int index) {
+    /**
+     * Method removeAt that remove one oject from array by index.
+     * @params item - removed element
+     * @return removed object.
+     */
+    isItem(index);
+    Node node = getNode(index);
+
+    if (node.previous == null) {
+      this.head = node.next;
+      this.head.previous = null;
+    }
+    else if (node.next == null) {
+      this.tail = node.previous;
+      this.tail.next = null;
+    }
+    else {
+      node.previous.next = node.next;
+      node.next.previous = node.previous;
+    }
+    elements.remove(index);
+    this.size--;
+    return node.val;
+  }
+```
 ### Method CLEAR:
 Method clear that clear array and array size.
 ### Explanation:
@@ -118,6 +245,17 @@ Simply clear array or replace our array with new empty data.
   public void clear(){
     this.arr = (T[]) new Object[5];
     this.size = 0;
+  }
+```
+```java
+  @Override
+  public void clear() {
+    /**
+     * Method clear that clear array and array size.
+     */
+    head = null;
+    tail = null;
+    size = 0;
   }
 ```
 ### Method INDEXOF:
@@ -133,6 +271,23 @@ Check by method contains is object in array list. Then by loop check eaual items
       if (arr[i].equals((T) o)) {
         return i;
       }
+    }
+    return -1;
+  }
+```
+```java
+@Override
+  public int indexOf(Object o) {
+    /**
+     * Method indexOf that returns the position of the first occurrence of specified character(s) in a string.
+     * @return int.
+     */
+    int i = 0;
+    Node<E> nextNode = this.head;
+    while (!nextNode.equals(null)) {
+      if (this.head.val.equals(o)) return i;
+      nextNode = nextNode.next;
+      i++;
     }
     return -1;
   }
@@ -155,6 +310,23 @@ Check by method contains is object in array list. Then by loop check equal items
     return index;
   }
 ```
+```java
+ @Override
+  public int lastIndexOf(Object o) {
+    /**
+     * Method lastIndexOf that return the position of the last occurrence of specified character(s) in a string.
+     * @return int.
+     */
+    int i = size()-1;
+    Node<E> node = this.tail;
+    while (i >= 0) {
+      if (node.equals(o)) return i;
+      node = this.tail.previous;
+      i--;
+    }
+    return -1;
+  }
+```
 ### Method SORT:
 Method sort that sort elements of a collection.
 ### Explanation:
@@ -171,6 +343,21 @@ We use nested loops, to check by conditions in order to swap elements with place
           arr[d] = item;
         }
       }
+    }
+  }
+```
+```java
+  @Override
+  public void sort() {
+    /**
+     * Method sort that sort elements of a collection.
+     */
+    Integer.valueOf((int) this.get(0));
+
+    elements.sort();
+    this.clear();
+    for (int i = 0; i < elements.size(); i++) {
+      this.addN(elements.get(i), false);
     }
   }
 ```
