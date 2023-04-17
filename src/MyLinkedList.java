@@ -1,4 +1,21 @@
-public class MyLinkedList implements MyList{
+public class MyLinkedList<E> implements MyList{
+  private MyArrayList elements = new MyArrayList<E>();
+  private Node<E> head;
+  private Node<E> tail;
+  private int size;
+  MyLinkedList() {
+    size = 0;
+  }
+  private class Node<E> {
+    E val;
+    Node next;
+    public Node(E vaule) {
+      val = vaule;
+      next = null;
+    }
+
+  }
+
   @Override
   public int size() {
     return 0;
