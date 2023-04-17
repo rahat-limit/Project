@@ -40,8 +40,8 @@ public class MyLinkedList<E> implements MyList{
   @Override
   public void add(Object item) {
     /**
-     * Method contains that define is object exist in array.
-     * @return boolean value.
+     * Method add that that add to array addition object.
+     * @return null;
      */
     Node<E> node = new Node<>((E) item);
     if (size == 0) {
