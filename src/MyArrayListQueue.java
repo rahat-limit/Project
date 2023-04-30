@@ -8,4 +8,7 @@ public class MyArrayListQueue<T> {
   public T dequeue() {
     return (T) myArrayList.remove(0);
   }
+  public int size() {
+    return myArrayList.size();
+  }
 }
