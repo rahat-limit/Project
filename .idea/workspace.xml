@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05b76a61-189f-4ac4-80a7-0272e30add47" name="Changes" comment="MyLinkedList Contains">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/project/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project/MyArrayList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/project/MyArrayList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyLinkedList.java" afterDir="false" />
-    </list>
+    <list default="true" id="05b76a61-189f-4ac4-80a7-0272e30add47" name="Changes" comment="queue peek" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,6 +57,7 @@
       <workItem from="1681537677186" duration="9000" />
       <workItem from="1681537694927" duration="11000" />
       <workItem from="1681713276321" duration="2518000" />
+      <workItem from="1682855795614" duration="464000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1681187531441</created>
@@ -302,19 +297,55 @@
       <option name="project" value="LOCAL" />
       <updated>1681713878471</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="d">
+      <created>1682855828107</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1682855828107</updated>
+    </task>
+    <task id="LOCAL-00036" summary="queue add">
+      <created>1682855939456</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1682855939456</updated>
+    </task>
+    <task id="LOCAL-00037" summary="queue remove">
+      <created>1682855971559</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1682855971559</updated>
+    </task>
+    <task id="LOCAL-00038" summary="queue size">
+      <created>1682856002988</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1682856002988</updated>
+    </task>
+    <task id="LOCAL-00039" summary="queue isEmpty">
+      <created>1682856056354</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1682856056354</updated>
+    </task>
+    <task id="LOCAL-00040" summary="queue peek">
+      <created>1682856252407</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1682856252408</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="AddAt method" />
-    <MESSAGE value="Remove object method" />
-    <MESSAGE value="Remove object by index method" />
-    <MESSAGE value="IndexOf method" />
-    <MESSAGE value="LastIndexOf method" />
-    <MESSAGE value="Sort method" />
     <MESSAGE value="Increase Buffer Documentation" />
     <MESSAGE value="Get Method Documentation" />
     <MESSAGE value="Size Method Documentation" />
@@ -334,6 +365,12 @@
     <MESSAGE value="MyLinkedList Nodes" />
     <MESSAGE value="MyLinkedList Size" />
     <MESSAGE value="MyLinkedList Contains" />
-    <option name="LAST_COMMIT_MESSAGE" value="MyLinkedList Contains" />
+    <MESSAGE value="d" />
+    <MESSAGE value="queue add" />
+    <MESSAGE value="queue remove" />
+    <MESSAGE value="queue size" />
+    <MESSAGE value="queue isEmpty" />
+    <MESSAGE value="queue peek" />
+    <option name="LAST_COMMIT_MESSAGE" value="queue peek" />
   </component>
 </project>
