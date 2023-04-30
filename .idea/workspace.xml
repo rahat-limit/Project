@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05b76a61-189f-4ac4-80a7-0272e30add47" name="Changes" comment="queue peek" />
+    <list default="true" id="05b76a61-189f-4ac4-80a7-0272e30add47" name="Changes" comment="stack add">
+      <change beforePath="$PROJECT_DIR$/src/MyArrayListStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyArrayListStack.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,7 +59,7 @@
       <workItem from="1681537677186" duration="9000" />
       <workItem from="1681537694927" duration="11000" />
       <workItem from="1681713276321" duration="2518000" />
-      <workItem from="1682855795614" duration="464000" />
+      <workItem from="1682855795614" duration="954000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1681187531441</created>
@@ -339,14 +341,20 @@
       <option name="project" value="LOCAL" />
       <updated>1682856252408</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="stack add">
+      <created>1682856566568</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1682856566569</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Increase Buffer Documentation" />
     <MESSAGE value="Get Method Documentation" />
     <MESSAGE value="Size Method Documentation" />
     <MESSAGE value="Contains Method Documentation" />
@@ -371,6 +379,7 @@
     <MESSAGE value="queue size" />
     <MESSAGE value="queue isEmpty" />
     <MESSAGE value="queue peek" />
-    <option name="LAST_COMMIT_MESSAGE" value="queue peek" />
+    <MESSAGE value="stack add" />
+    <option name="LAST_COMMIT_MESSAGE" value="stack add" />
   </component>
 </project>

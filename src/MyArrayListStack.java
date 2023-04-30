@@ -5,4 +5,10 @@ public class MyArrayListStack<T> {
   public void push(T element) {
     myArrayList.add(element);
   }
+  public boolean isEmpty() {
+    return this.size() == 0;
+  }
+  public int size() {
+    return myArrayList.size();
+  }
 }
