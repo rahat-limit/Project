@@ -43,6 +43,5 @@ public class Main {
 //    list.indexOf(Object);
 //    list.lastIndexOf(Object);
 //    list.sort();
-//    d
   }
 }
