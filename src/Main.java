@@ -1,16 +1,18 @@
+import java.util.Random;
 import java.util.Scanner;
 
 public class Main {
   public static void main(String[] args) {
-    Scanner scan = new Scanner(System.in);
+//    Scanner scan = new Scanner(System.in);
+    Random rand = new Random();
 //    Firstly, you can add to List any type of Objects. Then, use each of various methods.
 //    -------- Example:
-    MyArrayList list = new MyArrayList();
-    System.out.println("We already started, just enter input data: (For example:(Integer)). Also it works the same way to any type of Object.");
-    int input = scan.nextInt();
-//    or String input = scan.nextLine();
-    list.add(input);
-    System.out.println(list.get(0));
+//    MyArrayList list = new MyArrayList();
+//    System.out.println("We already started, just enter input data: (For example:(Integer)). Also it works the same way to any type of Object.");
+//    int input = scan.nextInt();
+////    or String input = scan.nextLine();
+//    list.add(input);
+//    System.out.println(list.get(0));
 //    -------- Example LinkedList:
 //    MyLinkedList linkedList = new MyLinkedList();
 //    System.out.println("We already started, just enter input data: (For example:(Integer)). Also it works the same way to any type of Object.");
@@ -43,6 +45,12 @@ public class Main {
 //    list.clear();
 //    list.indexOf(Object);
 //    list.lastIndexOf(Object);
-//    list.sort();
+//    list.sort();w
+    MyHashTable hashTable = new MyHashTable<MyTestingClass, String>();
+    for (int i = 0; i < 10000; i++) {
+      int val = rand.nextInt(0, 9999999);
+      hashTable.put(new MyTestingClass(val), "Student " + val);
+    }
+    System.out.println(hashTable.getSize());
   }
 }

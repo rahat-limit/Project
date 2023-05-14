@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05b76a61-189f-4ac4-80a7-0272e30add47" name="Changes" comment="linked list stack">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/project/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/project/MyArrayList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/project/MyArrayList.class" afterDir="false" />
+    <list default="true" id="05b76a61-189f-4ac4-80a7-0272e30add47" name="Changes" comment="My Hash Table getKey">
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyArrayList.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,62 +63,7 @@
       <workItem from="1683091511985" duration="241000" />
       <workItem from="1683093196310" duration="205000" />
       <workItem from="1683349130006" duration="1486000" />
-    </task>
-    <task id="LOCAL-00001" summary="init">
-      <created>1681187531441</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1681187531442</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Second init">
-      <created>1681187862233</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1681187862233</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Get method">
-      <created>1681284944159</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1681284944159</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Size method">
-      <created>1681285061631</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1681285061631</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Contains method">
-      <created>1681285789114</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1681285789114</updated>
-    </task>
-    <task id="LOCAL-00006" summary="AddAt method">
-      <created>1681286141243</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1681286141243</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Remove object method">
-      <created>1681286963964</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1681286963964</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Remove object by index method">
-      <created>1681287411252</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1681287411252</updated>
+      <workItem from="1684043040007" duration="1767000" />
     </task>
     <task id="LOCAL-00009" summary="Remove object by index method">
       <created>1681287719371</created>
@@ -390,24 +331,90 @@
       <option name="project" value="LOCAL" />
       <updated>1682858294781</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="testing class">
+      <created>1684043122871</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1684043122871</updated>
+    </task>
+    <task id="LOCAL-00048" summary="My Hash Table init">
+      <created>1684043478383</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1684043478384</updated>
+    </task>
+    <task id="LOCAL-00049" summary="My Hash Node init">
+      <created>1684043553023</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1684043553023</updated>
+    </task>
+    <task id="LOCAL-00050" summary="My Hash Node methods">
+      <created>1684044034551</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1684044034552</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Full My Hash Table init">
+      <created>1684044259100</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1684044259100</updated>
+    </task>
+    <task id="LOCAL-00052" summary="My Hash Table hash">
+      <created>1684044303758</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1684044303759</updated>
+    </task>
+    <task id="LOCAL-00053" summary="My Hash Table put">
+      <created>1684044485696</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1684044485696</updated>
+    </task>
+    <task id="LOCAL-00054" summary="My Hash Table get">
+      <created>1684044526912</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1684044526912</updated>
+    </task>
+    <task id="LOCAL-00055" summary="My Hash Table remove">
+      <created>1684044697796</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1684044697796</updated>
+    </task>
+    <task id="LOCAL-00056" summary="My Hash Table contains">
+      <created>1684044995425</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1684044995425</updated>
+    </task>
+    <task id="LOCAL-00057" summary="My Hash Table getKey">
+      <created>1684045168973</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1684045168973</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Remove Method Documentation" />
-    <MESSAGE value="RemoveAt Method Documentation" />
-    <MESSAGE value="Clear Method Documentation" />
-    <MESSAGE value="IndexOf Method Documentation" />
-    <MESSAGE value="Sort Method Documentation" />
-    <MESSAGE value="How start, Documentation" />
-    <MESSAGE value="How to start, Documentation" />
-    <MESSAGE value="Update" />
-    <MESSAGE value="MyLinkedList init" />
-    <MESSAGE value="MyLinkedList" />
-    <MESSAGE value="MyLinkedList Nodes" />
     <MESSAGE value="MyLinkedList Size" />
     <MESSAGE value="MyLinkedList Contains" />
     <MESSAGE value="d" />
@@ -422,6 +429,17 @@
     <MESSAGE value="linked list queue add, remove, size" />
     <MESSAGE value="linked list queue peek, exception" />
     <MESSAGE value="linked list stack" />
-    <option name="LAST_COMMIT_MESSAGE" value="linked list stack" />
+    <MESSAGE value="testing class" />
+    <MESSAGE value="My Hash Table init" />
+    <MESSAGE value="My Hash Node init" />
+    <MESSAGE value="My Hash Node methods" />
+    <MESSAGE value="Full My Hash Table init" />
+    <MESSAGE value="My Hash Table hash" />
+    <MESSAGE value="My Hash Table put" />
+    <MESSAGE value="My Hash Table get" />
+    <MESSAGE value="My Hash Table remove" />
+    <MESSAGE value="My Hash Table contains" />
+    <MESSAGE value="My Hash Table getKey" />
+    <option name="LAST_COMMIT_MESSAGE" value="My Hash Table getKey" />
   </component>
 </project>
