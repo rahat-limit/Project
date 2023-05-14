@@ -31,7 +31,18 @@ Welcome to my respository, which I created due to ADS lessons. Here you can easi
     size++;
   }
 ``` 
+### get
+ This function takes a key and returns the corresponding value from the hashtable. It uses the hash function to compute the index where the value should be stored, and then looks for the key at that index. If the key is not found, get returns null (or some other sentinel value).
+```java
+  public V get (K key) {
+    if (chain[hash(key)] == null) return null;
 
+    for (HashNode<K, V> node: chain[hash(key)]){
+      if(node.getKey().equals(key)) return node.getValue();
+    }
+    return null;
+  }
+``` 
 
 
 # Third Assignment Documentation
