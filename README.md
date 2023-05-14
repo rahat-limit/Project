@@ -72,10 +72,18 @@ This function takes a key and removes the corresponding key-value pair from the 
     return false;
   }
 ``` 
-
-
-
-
+### getKey
+ This function takes a value and returns the key that maps to that value in the hashtable. This function is not typically provided by standard hashtable implementations, as it requires iterating over all key-value pairs in the hashtable until the correct value is found.
+```java
+    public K getKey(V value) {
+    for(LinkedList<HashNode<K,V>> list: chain) {
+      for(HashNode<K,V> node: list){
+        if (node.getValue().equals(value)) return node.getKey();
+      }
+    }
+    return null;
+  }
+``` 
 # Third Assignment Documentation
 ## Enqueue
 ### MyArrayListQueue
