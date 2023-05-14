@@ -43,6 +43,23 @@ Welcome to my respository, which I created due to ADS lessons. Here you can easi
     return null;
   }
 ``` 
+### remove
+This function takes a key and removes the corresponding key-value pair from the hashtable. It uses the hash function to compute the index where the pair should be stored, and then looks for the key at that index. If the key is found, the pair is removed and the function returns true. Otherwise, it returns false.
+```java
+ public V remove(K key) {
+    if (chain[hash(key)] == null) return null;
+
+    for (HashNode<K, V> node: chain[hash(key)]){
+      if(node.getKey().equals(key)) {
+        chain[hash(key)].remove(node);
+        size--;
+        return node.getValue();
+      }
+    }
+    size--;
+    return null;
+  }
+``` 
 
 
 # Third Assignment Documentation
