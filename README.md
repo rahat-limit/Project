@@ -1,5 +1,126 @@
-# Second Assignment Documentation
+# Third Assignment Documentation
 Welcome to my respository, which I created due to ADS lessons. Here you can easily find some tasks with their explanations. Hope you like it🤙
+## Enqueue
+### MyArrayListQueue
+Add element in a queue
+```java
+  public void enqueue(T element) {
+    myArrayList.add(element);
+  }
+```
+### MyLikedListQueue
+```java
+  public void enqueue(T element) {
+    myLinkedList.add(element);
+  }
+```
+## Dequeue
+Remove element from queue
+### MyArrayListQueue
+```java
+  public T dequeue() {
+    return (T) myArrayList.remove(0);
+  }
+```
+### MyLikedListQueue
+```java
+  public T dequeue() {
+    return (T) myLinkedList.remove(0);
+  }
+```
+## Push
+Add element to Stack.
+### MyArrayListStack
+Add element in a queue
+```java
+  public void push(T element) {
+    myArrayList.add(element);
+  }
+```
+### MyLinkedListStack
+```java
+  public void push(T element) {
+    myLinkedList.add(element);
+  }
+```
+## Pop
+Remove element from Stack.
+### MyArrayListQueue
+```java
+  public T pop() {
+    isEmptyThrowException();
+    return (T) myArrayList.remove(0);
+  }
+```
+### MyLikedListQueue
+```java
+  public T pop() {
+    isEmptyThrowException();
+    return (T) myLinkedList.remove(0);
+  }
+```
+## Size
+Size of array queue
+### MyArrayListQueue
+```java
+  public int size() {
+    return myArrayList.size();
+  }
+```
+### MyLikedListQueue
+```java
+  public int size() {
+    return myLinkedList.size();
+  }
+```
+### MyArrayListStack
+```java
+ public int size() {
+    return myArrayList.size();
+  }
+```
+### MyLinkedListStack
+```java
+  public int size() {
+    return myLinkedList.size();
+  }
+```
+## Peek
+Get first element
+### MyArrayListQueue
+```java
+  public T peek() throws NoSuchFieldException {
+    isEmptyThrowException();
+    return (T) myArrayList.get(0);
+  }
+```
+### MyLikedListQueue
+```java
+  public T peek(){
+    isEmptyThrowException();
+    return (T) myLinkedList.get(0);
+  }
+```
+### MyArrayListStack
+```java
+  public T peek() {
+    isEmptyThrowException();
+    return (T) myArrayList.get(0);
+  }
+```
+### MyLinkedListStack
+```java
+  public T peek() {
+    isEmptyThrowException();
+    return (T) myLinkedList.get(0);
+  }
+```
+
+
+
+
+
+# Second Assignment Documentation
 ## Main File Main.java [(source)](https://github.com/rahat-limit/lab-2/blob/master/src/Main.java/)
 **All tasks in lab-2 works the same way. All you needed to uncomment Example lines and start project**
 ## ✖️ MyArrayList [(source)](https://github.com/rahat-limit/lab-2/blob/master/src/MyArrayList.java)
