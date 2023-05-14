@@ -1,5 +1,40 @@
-# Third Assignment Documentation
+# Fourth Assignment Documentation
 Welcome to my respository, which I created due to ADS lessons. Here you can easily find some tasks with their explanations. Hope you like it🤙
+### Hash
+ This is a function that takes a key and returns an index into the array that represents the hashtable. The goal of a good hash function is to evenly distribute the keys across the array to minimize collisions.
+```java
+  private int hash (K key) {
+    return key.hashCode() % M;
+  }
+``` 
+### getSize
+ This function returns the number of key-value pairs currently stored in the hashtable.
+```java
+  public int getSize() {
+    return size;
+  }
+``` 
+### put
+ This function takes a key-value pair and inserts it into the hashtable. It uses the hash function to compute the index where the pair should be stored. If there is already a pair with the same key in the hashtable, the value for that key is updated.
+```java
+  public void put (K key, V value) {
+    if (chain[hash(key)] == null){
+      chain[hash(key)] = new LinkedList<HashNode<K, V>>();
+    }
+    for (HashNode<K, V> node: chain[hash(key)]){
+      if(node.getKey().equals(key)){
+        node.setValue(value);
+        return;
+      }
+    }
+    chain[hash(key)].add(new HashNode<K, V>(key, value));
+    size++;
+  }
+``` 
+
+
+
+# Third Assignment Documentation
 ## Enqueue
 ### MyArrayListQueue
 Add element in a queue
