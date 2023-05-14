@@ -72,7 +72,12 @@ public class MyHashTable<K, V> {
     return null;
   }
   public boolean contains(V value) {
-    return true;
+    for(LinkedList<HashNode<K,V>> list: chain) {
+      for(HashNode<K,V> node: list){
+        if (node.getValue().equals(value)) return true;
+      }
+    }
+    return false;
   }
   public K getKey(V value) {
     return;
