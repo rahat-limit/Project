@@ -60,6 +60,20 @@ This function takes a key and removes the corresponding key-value pair from the 
     return null;
   }
 ``` 
+### contains
+ This function takes a key and returns true if the key is present in the hashtable, false otherwise. It uses the hash function to compute the index where the key should be stored, and then looks for the key at that index.
+```java
+  public boolean contains(V value) {
+    for(LinkedList<HashNode<K,V>> list: chain) {
+      for(HashNode<K,V> node: list){
+        if (node.getValue().equals(value)) return true;
+      }
+    }
+    return false;
+  }
+``` 
+
+
 
 
 # Third Assignment Documentation
