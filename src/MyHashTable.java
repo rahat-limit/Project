@@ -11,6 +11,23 @@ public class MyHashTable<K, V> {
       this.key = key;
       this.value = value;
     }
+
+    public K getKey() {
+      return key;
+    }
+
+    public V getValue() {
+      return value;
+    }
+
+    public void setValue(V value) {
+      this.value = value;
+    }
+
+    @Override
+    public String toString() {
+      return "{" + key + " " + value + "}";
+    }
   }
   public MyHashTable(int M) {}
   private int hash (K key) {
