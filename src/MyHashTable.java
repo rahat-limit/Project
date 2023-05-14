@@ -4,6 +4,14 @@ public class MyHashTable<K, V> {
   public MyHashTable () {
 
   }
+  public class HashNode<K, V> {
+    private K key;
+    private V value;
+    public HashNode(K key, V value) {
+      this.key = key;
+      this.value = value;
+    }
+  }
   public MyHashTable(int M) {}
   private int hash (K key) {
     return 0;
