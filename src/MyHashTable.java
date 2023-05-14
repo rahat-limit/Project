@@ -37,6 +37,9 @@ public class MyHashTable<K, V> {
   private int hash (K key) {
     return key.hashCode() % M;
   }
+  public int getSize() {
+    return size;
+  }
   public void put (K key, V value) {
     if (chain[hash(key)] == null){
       chain[hash(key)] = new LinkedList<HashNode<K, V>>();
@@ -80,6 +83,11 @@ public class MyHashTable<K, V> {
     return false;
   }
   public K getKey(V value) {
-    return;
+    for(LinkedList<HashNode<K,V>> list: chain) {
+      for(HashNode<K,V> node: list){
+        if (node.getValue().equals(value)) return node.getKey();
+      }
+    }
+    return null;
   }
 }
