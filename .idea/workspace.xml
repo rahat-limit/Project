@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05b76a61-189f-4ac4-80a7-0272e30add47" name="Changes" comment="linked list queue peek, exception" />
+    <list default="true" id="05b76a61-189f-4ac4-80a7-0272e30add47" name="Changes" comment="linked list stack">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/project/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/project/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/project/MyArrayList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/project/MyArrayList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyArrayList.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,7 +63,10 @@
       <workItem from="1681537677186" duration="9000" />
       <workItem from="1681537694927" duration="11000" />
       <workItem from="1681713276321" duration="2518000" />
-      <workItem from="1682855795614" duration="2050000" />
+      <workItem from="1682855795614" duration="3935000" />
+      <workItem from="1683091511985" duration="241000" />
+      <workItem from="1683093196310" duration="205000" />
+      <workItem from="1683349130006" duration="1486000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1681187531441</created>
@@ -374,14 +383,20 @@
       <option name="project" value="LOCAL" />
       <updated>1682857776896</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="linked list stack">
+      <created>1682858294781</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1682858294781</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="AddAt Method Documentation" />
     <MESSAGE value="Remove Method Documentation" />
     <MESSAGE value="RemoveAt Method Documentation" />
     <MESSAGE value="Clear Method Documentation" />
@@ -406,6 +421,7 @@
     <MESSAGE value="stack exception" />
     <MESSAGE value="linked list queue add, remove, size" />
     <MESSAGE value="linked list queue peek, exception" />
-    <option name="LAST_COMMIT_MESSAGE" value="linked list queue peek, exception" />
+    <MESSAGE value="linked list stack" />
+    <option name="LAST_COMMIT_MESSAGE" value="linked list stack" />
   </component>
 </project>
