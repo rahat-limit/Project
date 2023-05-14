@@ -59,7 +59,17 @@ public class MyHashTable<K, V> {
     return null;
   }
   public V remove(K key) {
-    return;
+    if (chain[hash(key)] == null) return null;
+
+    for (HashNode<K, V> node: chain[hash(key)]){
+      if(node.getKey().equals(key)) {
+        chain[hash(key)].remove(node);
+        size--;
+        return node.getValue();
+      }
+    }
+    size--;
+    return null;
   }
   public boolean contains(V value) {
     return true;
