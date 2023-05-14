@@ -34,9 +34,8 @@ public class MyHashTable<K, V> {
       return key.toString() + " " + value.toString();
     }
   }
-  public MyHashTable(int M) {}
   private int hash (K key) {
-    return 0;
+    return key.hashCode() % M;
   }
   public void put (K key, V wvalue) {
 
