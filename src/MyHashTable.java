@@ -1,8 +1,13 @@
-public class MyHashTable<K, V> {
-  private int M = 11: // default number of chains
-  private int size;
-  public MyHashTable () {
+import java.util.LinkedList;
 
+public class MyHashTable<K, V> {
+  private int M = 11;// default number of chains
+  private int size;
+  private LinkedList<HashNode<K, V>>[] chain;
+
+  public MyHashTable() {
+    chain = new LinkedList[M];
+    size = 0;
   }
   public class HashNode<K, V> {
     private K key;
@@ -26,7 +31,7 @@ public class MyHashTable<K, V> {
 
     @Override
     public String toString() {
-      return "{" + key + " " + value + "}";
+      return key.toString() + " " + value.toString();
     }
   }
   public MyHashTable(int M) {}
