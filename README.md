@@ -1,3 +1,5 @@
+# Fourth Assignment Defence
+## Resize Method [(source)](https://github.com/rahat-limit/lab-4/blob/master/src/MyHashTable.java)
 # Fourth Assignment Documentation
 Welcome to my respository, which I created due to ADS lessons. Here you can easily find some tasks with their explanations. Hope you like it🤙
 ### Hash
