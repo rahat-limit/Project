@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05b76a61-189f-4ac4-80a7-0272e30add47" name="Changes" comment="My Hash Table getKey">
+    <list default="true" id="05b76a61-189f-4ac4-80a7-0272e30add47" name="Changes" comment="My Hash Table Code Documentation">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyHashTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyHashTable.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,14 +65,8 @@
       <workItem from="1683091511985" duration="241000" />
       <workItem from="1683093196310" duration="205000" />
       <workItem from="1683349130006" duration="1486000" />
-      <workItem from="1684043040007" duration="1767000" />
-    </task>
-    <task id="LOCAL-00009" summary="Remove object by index method">
-      <created>1681287719371</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1681287719371</updated>
+      <workItem from="1684043040007" duration="2906000" />
+      <workItem from="1684559373477" duration="3888000" />
     </task>
     <task id="LOCAL-00010" summary="IndexOf method">
       <created>1681288183131</created>
@@ -408,14 +404,20 @@
       <option name="project" value="LOCAL" />
       <updated>1684045168973</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="My Hash Table Code Documentation">
+      <created>1684045805458</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1684045805459</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="MyLinkedList Size" />
     <MESSAGE value="MyLinkedList Contains" />
     <MESSAGE value="d" />
     <MESSAGE value="queue add" />
@@ -440,6 +442,7 @@
     <MESSAGE value="My Hash Table remove" />
     <MESSAGE value="My Hash Table contains" />
     <MESSAGE value="My Hash Table getKey" />
-    <option name="LAST_COMMIT_MESSAGE" value="My Hash Table getKey" />
+    <MESSAGE value="My Hash Table Code Documentation" />
+    <option name="LAST_COMMIT_MESSAGE" value="My Hash Table Code Documentation" />
   </component>
 </project>

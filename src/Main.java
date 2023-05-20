@@ -47,8 +47,13 @@ public class Main {
 //    list.lastIndexOf(Object);
 //    list.sort();w
     MyHashTable hashTable = new MyHashTable<MyTestingClass, String>();
-    for (int i = 0; i < 10000; i++) {
-      int val = rand.nextInt(0, 9999999);
+    for (int i = 0; i < 10; i++) {
+      int val = rand.nextInt(0, 9);
+      hashTable.put(new MyTestingClass(val), "Student " + val);
+    }
+    System.out.println(hashTable.getSize());
+    for (int i = 0; i < 10; i++) {
+      int val = rand.nextInt(0, 9);
       hashTable.put(new MyTestingClass(val), "Student " + val);
     }
     System.out.println(hashTable.getSize());

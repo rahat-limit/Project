@@ -5,9 +5,17 @@ public class MyHashTable<K, V> {
   private int size;
   private LinkedList<HashNode<K, V>>[] chain;
 
+  private int capacity;
+  private float loadFactor;
+
+  private static final int DEFAULT_CAPACITY = 16;
+  private static final float DEFAULT_LOAD_FACTOR = 0.75f;
+
   public MyHashTable() {
     chain = new LinkedList[M];
     size = 0;
+    this.capacity = 16;
+    this.loadFactor = loadFactor;
   }
   public class HashNode<K, V> {
     private K key;
@@ -58,6 +66,7 @@ public class MyHashTable<K, V> {
    * hashtable, the value for that key is updated.
    */
   public void put (K key, V value) {
+    resize();
     if (chain[hash(key)] == null){
       chain[hash(key)] = new LinkedList<HashNode<K, V>>();
     }
@@ -133,4 +142,23 @@ public class MyHashTable<K, V> {
     return null;
   }
 
+
+//  Resizing a hash table consists of choosing a new hash function to map
+//  to the new size, creating a hash table of the new size, iterating through
+//  the elements of the old table, and inserting them into the new table.
+
+//  Create a new array with a larger size: Determine the new size for the hashtable, typically by doubling the current size. Create a new array with this new size to accommodate more elements.
+//Rehash the existing elements: Iterate through the existing elements in the original hashtable and rehash them into the new array. This involves recalculating their hash codes based on the new array size and placing them in the appropriate positions in the new array.
+//Update the reference to the new array: Replace the reference to the original array with the reference to the new array, so that future operations on the hashtable use the resized array.
+//Adjust the load factor threshold: The load factor is the ratio of the number of elements in the hashtable to its capacity. It helps determine when a resize is necessary. Typically, a hashtable is resized when the load factor exceeds a certain threshold (e.g., 0.75). After resizing, the load factor threshold may need to be adjusted to reflect the new array size.
+  public void resize() {
+    double loadFactory = (size / chain.length);
+    if (loadFactory > 0.75) {
+      LinkedList<HashNode<K, V>>[] newList = new LinkedList[M];
+        for (int i =0; i< chain.length; i++) {
+          newList[i] = chain[i];
+        }
+        chain = newList;
+      }
+    }
 }
